@@ -1,0 +1,31 @@
+.UserList {
+  margin: 0 auto;
+}
+
+.UserList tr th {
+  background-color: #7a7878;
+  border: 2px solid #000000;
+}
+
+.UserList tr {
+  background-color: #c0bebe;
+  border: 1px solid #000000;
+}
+
+.UserList tr:hover {
+  cursor: pointer;
+}
+
+.UserList tr:nth-child(2n) {
+  background-color: #7db8b8;
+}
+
+.UserList td {
+  padding: 5px;
+}
+
+.UserList button {
+  display: inline-block;
+  width: 50px;
+  padding: 10px;
+}
